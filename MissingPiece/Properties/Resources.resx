@@ -1,0 +1,616 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="emptybox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emptybox.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minions8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minions8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moana.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frozen6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frozen6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Princess6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Princess6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toystory" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toystory.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moana1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moana1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rio15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rio15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frozen11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frozen11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toystory10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toystory10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toystory4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toystory4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rio.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tangled16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tangled16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tangled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tangled.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toystory2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toystory2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toystory15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toystory15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tangled4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tangled4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Princess14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Princess14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pausebttn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pausebttn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frozen13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frozen13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideOut15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideOut15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideOut3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideOut3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideOut10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideOut10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swapbttn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shufflebttn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Princess2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Princess2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moana12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moana12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moana3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moana3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minions3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minions3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moana9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moana9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rio9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rio9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minions9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minions9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tangled7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tangled7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toystory13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toystory13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frozen7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frozen7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frozen14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frozen14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rio14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rio14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideOut8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideOut8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toystory3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toystory3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideOut2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideOut2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frozen16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frozen16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minions11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minions11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tangled5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tangled5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rio1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rio1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Princess1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Princess1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rio16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rio16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frozen12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frozen12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toystory1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toystory1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moana8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moana8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minions13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minions13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moana10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moana10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tangled11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tangled11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Princess3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Princess3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toystory12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toystory12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moana15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moana15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Princess" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Princess.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideOut12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideOut12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tangled13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tangled13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Princess10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Princess10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minions10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minions10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rio13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rio13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Princess15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Princess15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideOut9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideOut9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minions4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minions4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rio2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rio2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frozen10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frozen10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="playbttn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\playbttn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rio11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rio11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nextpbttn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nextpbttn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frozen8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frozen8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Princess8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Princess8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideOut13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideOut13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideOut1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideOut1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minions6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minions6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minions12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minions12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rio4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rio4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moana4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moana4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moana14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moana14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideOut11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideOut11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minions14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minions14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toystory8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toystory8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tangled12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tangled12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toystory11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toystory11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frozen15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frozen15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tangled8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tangled8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minions.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Princess4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Princess4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Princess11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Princess11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moana5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moana5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frozen2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frozen2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moana16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moana16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minions5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minions5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shufflebutton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swapbttnpressed.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tangled14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tangled14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tangled6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tangled6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rio3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rio3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pastel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pastel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moana13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moana13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Princess16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Princess16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frozen9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frozen9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moana7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moana7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frozen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frozen.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="musicbttn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\musicbttn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minions7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minions7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rio10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rio10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideOut6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideOut6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minions15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minions15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toystory9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toystory9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rio5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rio5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tangled1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tangled1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Princess9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Princess9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rio12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rio12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frozen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frozen1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minions1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minions1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideOut4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideOut4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toystory7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toystory7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rio7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rio7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tangled15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tangled15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tangled3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tangled3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toystory16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toystory16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tangled9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tangled9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frozen5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frozen5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Princess5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Princess5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moana6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moana6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frozen3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frozen3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideOut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideOut.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toystory5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toystory5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideOut5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideOut5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toystory14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toystory14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Princess7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Princess7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moana11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moana11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Princess12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Princess12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="soundbttn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\soundbttn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tangled10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tangled10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideOut16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideOut16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideOut7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideOut7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shufflebutton1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swapbttn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rio6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rio6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tangled2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tangled2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frozen4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frozen4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Moana2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Moana2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minions2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minions2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideOut14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideOut14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Minions16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Minions16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toystory6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toystory6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rio8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rio8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Princess13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Princess13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FrozenBackg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FrozenBackg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="InsideOutBackg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\InsideOutBackg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MinionsBackg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MinionsBackg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MoanaBackg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MoanaBackg.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PrincessBackg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PrincessBackg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RioBackg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\RioBackg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TangledBackg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TangledBackg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ToyStoryBackg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ToyStoryBackg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swapimagetext1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swapimagetext1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="playbttnt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\playbttnt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shufflettext" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shufflettext.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swapbutton2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swapbutton2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Menubg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menubg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="homebttn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\homebttn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="infobttn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\infobttn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="playallbttn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\playallbttn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ppgamebttn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ppgamebttn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pugame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pugame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

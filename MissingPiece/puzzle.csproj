@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{17811774-D719-4952-9B1B-B49CD12B5C5B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>puzzle</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Info.Designer.cs">
+      <DependentUpon>Info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameBoard.Designer.cs">
+      <DependentUpon>GameBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameBoard1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GameBoard.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Info.resx">
+      <DependentUpon>Info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameBoard.resx">
+      <DependentUpon>GameBoard.cs</DependentUpon>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>GameBoard1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+    <None Include="Resources\pugame.png" />
+    <None Include="Resources\ppgamebttn.png" />
+    <None Include="Resources\playallbttn.png" />
+    <None Include="Resources\infobttn.png" />
+    <None Include="Resources\Menubg.jpg" />
+    <None Include="Resources\playbttnt.png" />
+    <None Include="Resources\swapbutton2.png" />
+    <None Include="Resources\shufflettext.png" />
+    <None Include="Resources\pptext.png" />
+    <None Include="Resources\swapimagetext1.png" />
+    <None Include="Resources\PrincessBackg.jpg" />
+    <None Include="Resources\MoanaBackg.jpeg" />
+    <None Include="Resources\MinionsBackg.jpg" />
+    <None Include="Resources\InsideOutBackg.jpg" />
+    <None Include="Resources\ToyStoryBackg.jpg" />
+    <None Include="Resources\TangledBackg.jpg" />
+    <None Include="Resources\RioBackg.jpg" />
+    <None Include="Resources\swapbttn.png" />
+    <None Include="Resources\swapbttnpressed.gif" />
+    <None Include="Resources\pastel2.jpg" />
+    <None Include="Resources\pastel.jpg" />
+    <None Include="Resources\swapbutton.png" />
+    <None Include="Resources\shufflebttn.png" />
+    <None Include="Resources\playbttn.png" />
+    <None Include="Resources\pausebttn.png" />
+    <None Include="Resources\nextpbttn.png" />
+    <None Include="Resources\musicbttn.png" />
+    <None Include="Resources\soundbttn.png" />
+    <None Include="Resources\Moana16.jpg" />
+    <None Include="Resources\Moana15.jpg" />
+    <None Include="Resources\Moana14.jpg" />
+    <None Include="Resources\Moana13.jpg" />
+    <None Include="Resources\Moana12.jpg" />
+    <None Include="Resources\Moana11.jpg" />
+    <None Include="Resources\Moana10.jpg" />
+    <None Include="Resources\Moana9.jpg" />
+    <None Include="Resources\Moana8.jpg" />
+    <None Include="Resources\Moana7.jpg" />
+    <None Include="Resources\Moana6.jpg" />
+    <None Include="Resources\Moana5.jpg" />
+    <None Include="Resources\Moana4.jpg" />
+    <None Include="Resources\Moana3.jpg" />
+    <None Include="Resources\Moana2.jpg" />
+    <None Include="Resources\Moana1.jpg" />
+    <None Include="Resources\Moana.jpg" />
+    <None Include="Resources\airship.jpg" />
+    <Content Include="Resources\bg2.jpg" />
+    <Content Include="Resources\bg3.jpg" />
+    <None Include="Resources\Toystory16.jpg" />
+    <None Include="Resources\Toystory15.jpg" />
+    <None Include="Resources\Toystory14.jpg" />
+    <None Include="Resources\Toystory13.jpg" />
+    <None Include="Resources\Toystory12.jpg" />
+    <None Include="Resources\Toystory11.jpg" />
+    <None Include="Resources\Toystory10.jpg" />
+    <None Include="Resources\Toystory9.jpg" />
+    <None Include="Resources\Toystory8.jpg" />
+    <None Include="Resources\Toystory7.jpg" />
+    <None Include="Resources\Toystory6.jpg" />
+    <None Include="Resources\Toystory5.jpg" />
+    <None Include="Resources\Toystory4.jpg" />
+    <None Include="Resources\Toystory3.jpg" />
+    <None Include="Resources\Toystory2.jpg" />
+    <None Include="Resources\Toystory1.jpg" />
+    <None Include="Resources\Toystory.jpg" />
+    <None Include="Resources\Tangled16.jpg" />
+    <None Include="Resources\Tangled15.jpg" />
+    <None Include="Resources\Tangled14.jpg" />
+    <None Include="Resources\Tangled13.jpg" />
+    <None Include="Resources\Tangled12.jpg" />
+    <None Include="Resources\Tangled11.jpg" />
+    <None Include="Resources\Tangled10.jpg" />
+    <None Include="Resources\Tangled9.jpg" />
+    <None Include="Resources\Tangled8.jpg" />
+    <None Include="Resources\Tangled7.jpg" />
+    <None Include="Resources\Tangled6.jpg" />
+    <None Include="Resources\Tangled5.jpg" />
+    <None Include="Resources\Tangled4.jpg" />
+    <None Include="Resources\Tangled3.jpg" />
+    <None Include="Resources\Tangled2.jpg" />
+    <None Include="Resources\Tangled1.jpg" />
+    <None Include="Resources\Tangled.jpg" />
+    <None Include="Resources\Rio15.jpg" />
+    <None Include="Resources\Rio14.jpg" />
+    <None Include="Resources\Rio13.jpg" />
+    <None Include="Resources\Rio12.jpg" />
+    <None Include="Resources\Rio11.jpg" />
+    <None Include="Resources\Rio10.jpg" />
+    <None Include="Resources\Rio9.jpg" />
+    <None Include="Resources\Rio8.jpg" />
+    <None Include="Resources\Rio7.jpg" />
+    <None Include="Resources\Rio6.jpg" />
+    <None Include="Resources\Rio5.jpg" />
+    <None Include="Resources\Rio4.jpg" />
+    <None Include="Resources\Rio3.jpg" />
+    <None Include="Resources\Rio2.jpg" />
+    <None Include="Resources\Rio1.jpg" />
+    <None Include="Resources\Rio.jpg" />
+    <None Include="Resources\Rio16.jpg" />
+    <None Include="Resources\Princess2.jpg" />
+    <None Include="Resources\Princess1.jpg" />
+    <None Include="Resources\Princess.jpg" />
+    <None Include="Resources\Princess16.jpg" />
+    <None Include="Resources\Princess15.jpg" />
+    <None Include="Resources\Princess14.jpg" />
+    <None Include="Resources\Princess13.jpg" />
+    <None Include="Resources\Princess12.jpg" />
+    <None Include="Resources\Princess11.jpg" />
+    <None Include="Resources\Princess10.jpg" />
+    <None Include="Resources\Princess9.jpg" />
+    <None Include="Resources\Princess8.jpg" />
+    <None Include="Resources\Princess7.jpg" />
+    <None Include="Resources\Princess6.jpg" />
+    <None Include="Resources\Princess5.jpg" />
+    <None Include="Resources\Princess4.jpg" />
+    <None Include="Resources\Princess3.jpg" />
+    <None Include="Resources\Minions16.jpg" />
+    <None Include="Resources\Minions15.jpg" />
+    <None Include="Resources\Minions14.jpg" />
+    <None Include="Resources\Minions13.jpg" />
+    <None Include="Resources\Minions12.jpg" />
+    <None Include="Resources\Minions11.jpg" />
+    <None Include="Resources\Minions10.jpg" />
+    <None Include="Resources\Minions9.jpg" />
+    <None Include="Resources\Minions8.jpg" />
+    <None Include="Resources\Minions7.jpg" />
+    <None Include="Resources\Minions6.jpg" />
+    <None Include="Resources\Minions5.jpg" />
+    <None Include="Resources\Minions4.jpg" />
+    <None Include="Resources\Minions3.jpg" />
+    <None Include="Resources\Minions2.jpg" />
+    <None Include="Resources\Minions1.jpg" />
+    <None Include="Resources\Minions.jpg" />
+    <None Include="Resources\InsideOut.jpg" />
+    <None Include="Resources\InsideOut16.jpg" />
+    <None Include="Resources\InsideOut15.jpg" />
+    <None Include="Resources\InsideOut14.jpg" />
+    <None Include="Resources\InsideOut13.jpg" />
+    <None Include="Resources\InsideOut12.jpg" />
+    <None Include="Resources\InsideOut11.jpg" />
+    <None Include="Resources\InsideOut10.jpg" />
+    <None Include="Resources\InsideOut9.jpg" />
+    <None Include="Resources\InsideOut8.jpg" />
+    <None Include="Resources\InsideOut7.jpg" />
+    <None Include="Resources\InsideOut6.jpg" />
+    <None Include="Resources\InsideOut5.jpg" />
+    <None Include="Resources\InsideOut4.jpg" />
+    <None Include="Resources\InsideOut3.jpg" />
+    <None Include="Resources\InsideOut2.jpg" />
+    <None Include="Resources\InsideOut1.jpg" />
+    <None Include="Resources\Frozen.jpg" />
+    <None Include="Resources\Frozen1.jpg" />
+    <None Include="Resources\Frozen2.jpg" />
+    <None Include="Resources\Frozen3.jpg" />
+    <None Include="Resources\Frozen4.jpg" />
+    <None Include="Resources\Frozen5.jpg" />
+    <None Include="Resources\Frozen6.jpg" />
+    <None Include="Resources\Frozen7.jpg" />
+    <None Include="Resources\Frozen8.jpg" />
+    <None Include="Resources\Frozen9.jpg" />
+    <None Include="Resources\Frozen10.jpg" />
+    <None Include="Resources\Frozen11.jpg" />
+    <None Include="Resources\Frozen12.jpg" />
+    <None Include="Resources\Frozen13.jpg" />
+    <None Include="Resources\Frozen14.jpg" />
+    <None Include="Resources\Frozen15.jpg" />
+    <None Include="Resources\Frozen16.jpg" />
+    <None Include="Resources\bluebttn.png" />
+    <None Include="Resources\FrozenBackg.jpg" />
+    <None Include="Resources\homebttn.png" />
+    <Content Include="Resources\icon.ico" />
+    <None Include="Resources\gradient-background-green-shades_23-2148363157.jpg" />
+    <None Include="Resources\Yko6cX.jpg" />
+    <None Include="Resources\emptybox.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

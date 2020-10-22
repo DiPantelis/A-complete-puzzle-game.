@@ -1,0 +1,14 @@
+Easy mode:
+The star-image can be swapped
+with any picture inside the grid.
+Time limit-> 2 minutes.
+Normal mode:
+The star-image can be swapped
+only with the pictures inside the grid that are next to it, as shown in the example.
+Time limit-> 8 minutes.
+Hard mode:
+The star-image can be swapped
+only with the picture inside the grid that are next to it horizontally or vertically.
+Time limit-> 20 minutes.
+
+The goal in every case is to put the picture's pieces in order so that it matches with the original picture.
